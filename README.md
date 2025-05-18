@@ -86,6 +86,9 @@ tests/customer_test.py
 tests/coffee_test.py
 tests/order_test.py
 
+### 🧪 Running Tests
+Run "python -m unittest discover -s tests -p "*_test.py" -v" to run all the tests.
+
 ## Running code
 Run python debug.py in the terminal to execute and display output from the script.
 
