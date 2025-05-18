@@ -87,7 +87,7 @@ tests/coffee_test.py
 tests/order_test.py
 
 ## Running code
-Use "python debug.py" 
+Run python debug.py in the terminal to execute and display output from the script.
 
 ## Technologies used
 Python
