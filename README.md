@@ -86,6 +86,9 @@ tests/customer_test.py
 tests/coffee_test.py
 tests/order_test.py
 
+## Running code
+Use "python debug.py" 
+
 ## Technologies used
 Python
 
