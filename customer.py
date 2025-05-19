@@ -27,10 +27,3 @@ class Customer:
         coffee._orders.append(order)
         return order
 
-    @classmethod
-    def most_aficionado(cls, coffee):
-        from order import Order
-        spending = {}
-        for order in coffee.orders():
-            spending[order.customer] = spending.get(order.customer, 0) + order.price
-        return max(spending, key=spending.get, default=None)
