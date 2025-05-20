@@ -2,6 +2,7 @@ class Order:
     def __init__(self, customer, coffee, price):
         from customer import Customer
         from coffee import Coffee
+
         if not isinstance(customer, Customer):
             raise TypeError("Invalid customer")
         if not isinstance(coffee, Coffee):
@@ -12,6 +13,8 @@ class Order:
         self._customer = customer
         self._coffee = coffee
         self._price = price
+
+        print(f"[Order Created] {customer.name} -> {coffee.name} @ ${price:.2f}")
 
     @property
     def customer(self):
