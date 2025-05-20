@@ -14,8 +14,6 @@ class Order:
         self._coffee = coffee
         self._price = price
 
-        print(f"[Order Created] {customer.name} -> {coffee.name} @ ${price:.2f}")
-
     @property
     def customer(self):
         return self._customer
